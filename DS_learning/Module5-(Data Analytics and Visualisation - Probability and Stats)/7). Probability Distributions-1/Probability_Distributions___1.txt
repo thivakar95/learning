@@ -1,0 +1,6 @@
+Satish Atcha10:17 PM
+https://colab.research.google.com/drive/1uGLEF-YZhKD1DVTY7v326XNCxRP2dw6m?usp=sharing
+Satish Atcha10:04 PM
+import numpy as np
+rolls = np.random.choice(['R', 'R', 'R', 'B', 'B'], size=4)
+np.count_nonzero(rolls == 'R')
